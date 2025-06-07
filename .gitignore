@@ -1,0 +1,137 @@
+# Frontend Tools .gitignore
+# =========================
+
+# Dependencies
+# -----------
+# Node modules directory
+node_modules/
+# Yarn error logs
+yarn-error.log
+# Yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Package manager files
+# ---------------------
+# NPM
+npm-debug.log*
+# Yarn
+yarn-debug.log*
+yarn-error.log*
+# pnpm
+pnpm-debug.log*
+
+# Build outputs
+# ------------
+# Distribution/production directories
+dist/
+build/
+lib/
+out/
+# Coverage reports
+coverage/
+.nyc_output/
+# Storybook build
+storybook-static/
+# Generated types
+*.tsbuildinfo
+# Bundle analyzer outputs
+stats.html
+stats.json
+
+# Environment and configuration
+# ----------------------------
+# Environment files
+.env
+.env.*
+!.env.example
+# Local configuration
+.localrc
+
+# IDE and editor files
+# -------------------
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json.example
+# JetBrains IDEs
+.idea/
+*.iml
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+# Vim
+*.swp
+*.swo
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Operating system files
+# ---------------------
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# macOS thumbnails
+._*
+# macOS Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+# Windows folder config file
+Desktop.ini
+# Windows shortcuts
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+
+# Testing and linting
+# ------------------
+# Jest cache
+.jest-cache/
+# ESLint cache
+.eslintcache
+# Stylelint cache
+.stylelintcache
+
+# Build tools
+# ----------
+# Webpack
+.webpack/
+# Rollup
+.rollup.cache/
+# Next.js
+.next/
+# Gatsby
+.gatsby/
+# Nuxt.js
+.nuxt/
+# Vite
+.vite/
+
+# Logs
+# ----
+logs
+*.log
+
+# Temporary files
+# --------------
+tmp/
+temp/
+
