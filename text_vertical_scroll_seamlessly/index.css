@@ -1,0 +1,28 @@
+.container {
+    background-color: #f8deae;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.title {
+    float: left;
+    border-right: 2px #bc9b57 solid;
+    padding: 2px 20px;
+    font-size: 18px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.list {
+    float: left;
+    font-size: 16px;
+    list-style: none;
+    height: 30px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.list li {
+    height: 30px;
+    line-height: 30px;
+}
