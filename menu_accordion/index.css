@@ -1,0 +1,39 @@
+.container {
+    width: 30%;
+    margin: 0 auto;   /* 居中显示 */
+}
+
+.menu {
+    list-style: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+.submenu {
+    list-style: none;
+    line-height: 35px;
+    margin: 5px 0;
+    height: 0;
+    overflow: hidden;    /*隐藏子菜单*/
+}
+
+.menu-text {
+    background-color: aqua;
+    font-weight: normal;
+    padding: 5px 20px;
+}
+
+.submenu-text {
+    font-weight: normal;
+}
+.submenu-item {
+    background-color: goldenrod;
+    padding-left: 40px;
+}
