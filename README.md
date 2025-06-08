@@ -1,3 +1,15 @@
+# Frontend Tools
+
+This repository contains a collection of frontend components and tools.
+
+## Menu Accordion
+
+An accordion menu with smooth transitions and customizable options.
+
+### Demo
+
+![Menu Accordion Demo](./menu_accordion/demo.gif)
+
 ## Seamless Vertical Scroll
 
 A lightweight, pure JavaScript implementation of a seamless vertical scrolling announcement component. Perfect for displaying important notices, news, or updates in a clean and engaging way.
